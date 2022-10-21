@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Framework</title>
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    
+    <!-- MAIN CSS STYLES -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="site-id">
+            <a class="logomark" href="index.html"><img src="img/logo.png" alt="Site Name Logo" width="100" height="100"></a>
+             
+            <h1 class="hide-visually"><a href="#">Personal Framework</a></h1>
+        </div>
+        <nav class="site-nav" data-navstate="closed">
+            <h2 class="menu-button">
+                <span class="hide-visually">Menu</span>
+                <svg width="30" height="30"> 
+                    <title>Menu</title>
+                    <rect id="menubar-top" y="0" width="30" height="3"></rect>
+                    <rect id="menubar-middle" y="8" width="30" height="3"></rect>
+                    <rect id="menubar-bottom" y="16" width="30" height="3"></rect>
+                </svg>
+            </h2>
+            <ul>
+                <li><a href="#index.html">Home</a></li>
+                <li><a href="#subpage.html">Subpage</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="site-main">
+        <section class="hero animate-on-scroll">
+            <div class="container">
+                <h1>The Elixir Kit</h1>
+                <p>This is a simple, single page website, built with SASS.</p>
+                <a href="#section1" class="button">What is the Elixir Kit?</a>
+            </div>
+        </section>
+
+        <section id="section1" class="animate-on-scroll">
+            <div class="container">
+                <div class="row">
+                    <div class="one-half">
+                        <img src="https://via.placeholder.com/1600x1200" alt="Placeholder">
+                    </div>
+                    <div class="one-half">
+                        <h3>Header 3</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum nisi assumenda corporis. Magni nisi cupiditate minus tempora voluptatibus consectetur dolores omnis, esse assumenda. Quidem, similique!</p>
+                        <a href="#" class="button">Button</a>
+                    </div>
+                </div>
+            </section>
+
+        <section id="section2" class="animate-on-scroll">
+                
+            <div class="container">
+                <div class="row swapped">
+                    <div class="one-half">
+                        <img class="animate-scale-in" src="https://via.placeholder.com/1600x1200" alt="Placeholder">
+                    </div>
+                    <div class="one-half animate-drop-in-with-delay">
+                        <h3>Header 3</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum nisi assumenda corporis. Magni nisi cupiditate minus tempora voluptatibus consectetur dolores omnis, esse assumenda. Quidem, similique!</p>
+                        <a href="#" class="button">Button</a>
+                    </div>
+                </div>
+            
+         <section id="section3" class="animate-on-scroll">
+                
+            <div class="container">
+                <div class="row stacked">
+                    <div class="one-half animate-scale-in">
+                        <img src="https://via.placeholder.com/1600x1200" alt="Placeholder">
+                    </div>
+                    <div class="one-half animate-slide-up">
+                        <h3>Header 3</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum nisi assumenda corporis. Magni nisi cupiditate minus tempora voluptatibus consectetur dolores omnis, esse assumenda. Quidem, similique!</p>
+                        <a href="#" class="button">Button</a>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <nav class="site-nav">
+            <ul>
+                <li><a href="#section1">Section 1</a></li>
+                <li><a href="#section2">Section 2</a></li>
+                <li><a href="#section3">Section 3</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <!-- SMOOTH SCROLL BY CHRIS FERDINANDI https://github.com//cferdinandi/smooth-scroll-->
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 800,
+            speedAsDuration: true
+        });
+    </script>
+
+     <!-- MAIN JS -->
+     <script src="js/script.js"></script>
+</body>
+</html>
