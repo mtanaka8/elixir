@@ -124,7 +124,7 @@
   /* BUTTONS */
   .button {
     display: inline-block;
-    background-color: rgb(255, 208, 0);
+    background-color: rgb(255, 55, 109);
     color: #fff;
     text-decoration: none;
     padding: 1em;
@@ -283,11 +283,36 @@
     margin: 0; 
   }
 
-  .logo {
-    display: inline-block;
-    margin-left: -250px;
-
+  .s-character {
+    margin-top: 2em;
+    margin-left: -13em;
+    margin-right: 5em;
+    margin-bottom: 0em;
   }
+
+
+  .content-block {
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: black;
+  }
+
+  #products {
+    background-image: url("file:///Users/mariatanaka/Desktop/github/elixir-v2/img%20/patterns%202.png");
+    background-repeat: repeat;
+    background-size: 450px;
+  }
+
+  #section4 {
+    background-image: url("file:///Users/mariatanaka/Desktop/github/elixir-v2/img%20/patterns.png");
+    background-repeat: repeat;
+    background-size: 450px;
+  }
+
+
+
+  
 
   
   /* SITE FOOTER */
@@ -303,6 +328,7 @@
   }
   .site-footer a {
     color: rgb(255, 232, 80);
+    background-color: black;
     text-decoration: none;
   }
   
@@ -331,6 +357,7 @@
         -ms-flex-align: center;
             align-items: center;
   }
+
   
   /* HERO SECTION */
   .hero {
@@ -439,6 +466,11 @@
       content: "\2715";
 
 
+  }
+
+  .product-wrapper {
+    background-color: black;
+    border-radius: 30px;
   }
 
 
@@ -608,4 +640,7 @@
   opacity: 1;
   -webkit-transform: translate(0, 0);
           transform: translate(0, 0);
+
+
+
 }
