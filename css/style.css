@@ -307,13 +307,13 @@
   }
 
   #products {
-    background-image: url("file:///Users/mariatanaka/Desktop/github/elixir-v2/img%20/patterns%202.png");
+    background-image: url("file:///Users/mariatanaka/Desktop/github/elixir/img%20/patterns%202.png");
     background-repeat: repeat;
     background-size: 450px;
   }
 
   #section4 {
-    background-image: url("file:///Users/mariatanaka/Desktop/github/elixir-v2/img%20/patterns.png");
+    background-image: url("file:///Users/mariatanaka/Desktop/github/elixir/img%20/patterns.png");
     background-repeat: repeat;
     background-size: 450px;
   }
@@ -648,7 +648,4 @@
   opacity: 1;
   -webkit-transform: translate(0, 0);
           transform: translate(0, 0);
-
-
-
-}
+}}
